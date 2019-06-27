@@ -20,8 +20,7 @@ func main() {
 	alex.contact = contactInfo{"alex@anderson.com", 97400}
 	alex.print()
 
-	alexPointer := &alex
-	alexPointer.updateName("Alexxe")
+	alex.updateName("Alexxe")
 	alex.print()
 
 }
